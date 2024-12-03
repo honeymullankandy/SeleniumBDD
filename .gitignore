@@ -1,0 +1,56 @@
+
+# Maven specific
+/target/
+!*/src/main/resources/
+!*/src/test/resources/
+/pom.xml.tag
+/pom.xml.releaseBackup
+/pom.xml.versionsBackup
+/pom.xml.next
+/release.properties
+
+# IDEs and editors
+*.iml
+.idea/
+*.swp
+*.swo
+*.bak
+*.tmp
+.vscode/
+*.class
+*.project
+*.classpath
+*.settings/
+*.factorypath
+
+# Logs and temporary files
+*.log
+*.out
+*.err
+*.pid
+hs_err_pid*
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Test results
+/test-output/
+surefire-reports/
+*.xml
+*.txt
+*.dat
+
+# Package management
+/.mvn/
+dependency-reduced-pom.xml
+*.cache
+*.lock
+
+# Miscellaneous
+*.war
+*.ear
+*.jar
+
+# Generated files
+*.generated
